@@ -54,9 +54,9 @@ public class ConsumerTest {
         //RequestBody
         Map<String, Object> reqBody = new HashMap<>();
         reqBody.put("id", 123);
-        reqBody.put("firstName", "Sumanjali");
-        reqBody.put("lastName", "Reddy");
-        reqBody.put("email", "sumanjalireddy@test.com");
+        reqBody.put("firstName", "Priyanka");
+        reqBody.put("lastName", "Srivastava");
+        reqBody.put("email", "priyankasrivastava@test.com");
 
         //Generate Response
         given().headers(reqHeaders).body(reqBody).    //Request specification
